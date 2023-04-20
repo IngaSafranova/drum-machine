@@ -92,7 +92,7 @@ export const data = [
         <audio className='clip' id={drumObj.keyTrigger} src={drumObj.url} ></audio>
         </div>)
         } 
-        <p>{activeKey}</p>
+        <p className="active-key">{activeKey}</p>
       </div>
     );
   }

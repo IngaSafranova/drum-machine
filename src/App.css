@@ -2,14 +2,16 @@
   display: flex;
   justify-content: center;
   margin-top: 33vh;
+  position: relative;
+  
 }
 #drum-pads {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr  ;
   justify-items: left;
-  border: 2px solid blue;
+
   width: fit-content;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   margin-left: 1rem;
 }
  .drum-pad {
@@ -23,17 +25,63 @@
   margin: 0.10rem;
   text-align: center;
   width: 3rem;
-  justify-items: left;
-}
+ }
  
 #display {
   background-color:wheat;
   border: 2px solid black;
   border-radius: 5px;
   
-  height: 15rem;
+  height: 20rem;
   margin: 0.10rem;
   width: 30rem;
-  justify-items: center;
+  
   display: flexbox;
+  position: absolute;
+
+}
+
+.active-key {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 3rem;
+  margin: 0.10rem;
+  text-align: center;
+  width: 3rem;
+  
+  
+}
+
+#logo {
+  display: flex;
+  
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+  width: 3rem;
+  height: 1rem;
+  position: absolute;
+  right:0;
+  top:0;
+}
+
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  
+width: 50%;
+position: absolute;
+right:0;
+bottom: 50%;
+margin-right: 1rem;
+
 }
